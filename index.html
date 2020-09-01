@@ -9,9 +9,13 @@
     <h1>Kaverilista</h1>
     <input type="text" id= "nimi" placeholder="syötä nimi">
     <br>
-    <button onclick="additem(document.getElementByld('nimi').value)">Lisää kaveri</button> 
+    <button onclick="addItem(document.getElementById('nimi').value)">Lisää kaveri</button> 
+    <br>
+    <button onclick="removeItem()">Poista</button>
     <ul id="Kaverilista"></ul>
-
+    <br>
     <script src = "kaverilista.js"></script>
 </body>
 </html>
+
+<link rel="stylesheet" href="tyylit.css">
