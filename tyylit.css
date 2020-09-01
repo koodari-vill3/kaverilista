@@ -1,3 +1,9 @@
 body {
     background-color: rgb(107, 175, 252);
 }
+
+h1 {
+    font-family: monospace;
+    font-size: 35px;
+    color: rgb(84, 93, 224)
+}
