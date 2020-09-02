@@ -18,3 +18,9 @@ function removeItem(){
     list.pop();
     printlist();
 }
+
+function sortItem(){
+    list.sort();
+    printlist();
+    
+}
